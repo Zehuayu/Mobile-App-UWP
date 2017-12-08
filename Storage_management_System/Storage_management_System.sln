@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage_management_System", "Storage_management_System\Storage_management_System.csproj", "{B24F11A2-A606-4432-AB65-5493FFF50D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|ARM.Build.0 = Debug|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x64.ActiveCfg = Debug|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x64.Build.0 = Debug|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x64.Deploy.0 = Debug|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x86.ActiveCfg = Debug|x86
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x86.Build.0 = Debug|x86
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Debug|x86.Deploy.0 = Debug|x86
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|ARM.ActiveCfg = Release|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|ARM.Build.0 = Release|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|ARM.Deploy.0 = Release|ARM
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x64.ActiveCfg = Release|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x64.Build.0 = Release|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x64.Deploy.0 = Release|x64
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x86.ActiveCfg = Release|x86
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x86.Build.0 = Release|x86
+		{B24F11A2-A606-4432-AB65-5493FFF50D1E}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98157C43-A361-48FF-AE10-B10668FBFE47}
+	EndGlobalSection
+EndGlobal
