@@ -329,7 +329,7 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
         private void set_4_MenuItem_Left(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
-            that.Left = (global::System.Int32)Value;
+            that.Left = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -365,7 +365,7 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
                 break;
             case "Storage_management_System.MenuItem.Left":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuItem");
-                xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "Left", "Int32");
+                xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "Left", "String");
                 xamlMember.Getter = get_4_MenuItem_Left;
                 xamlMember.Setter = set_4_MenuItem_Left;
                 break;

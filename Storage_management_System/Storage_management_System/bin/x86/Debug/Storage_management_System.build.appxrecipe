@@ -370,6 +370,9 @@
     <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\cheken.png">
       <PackagePath>Assets\cheken.png</PackagePath>
     </AppxPackagedFile>

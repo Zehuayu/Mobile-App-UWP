@@ -13,7 +13,7 @@ namespace Storage_management_System
         public string name { get; set; }
 
         public string Image { get; set; }
-        public int Left { get; set; }
+        public string Left { get; set; }
 
         public static ObservableCollection<MenuItem> MenuList()
         {
@@ -25,14 +25,14 @@ namespace Storage_management_System
                 Id = 1,
                 name = "Fire-Noodle",
                 Image = "Assets/Fire-Noodle.png",
-                Left = 8
+                Left = "8EUR"
             },
             new MenuItem()
             {
                 Id = 2,
                 name = "Spicy-Bag",
                 Image = "Assets/Spicy-Bag.png",
-                Left = 5
+                Left = "7EUR"
             },
 
 
@@ -41,7 +41,7 @@ namespace Storage_management_System
                 Id = 3,
                 name = "spring-roll",
                 Image = "Assets/spring-roll.png",
-                Left = 3
+                Left = "9EUR"
             },
 
               new MenuItem()
@@ -49,7 +49,7 @@ namespace Storage_management_System
                 Id = 4,
                 name = "Chicken",
                 Image = "Assets/Cheken.png",
-                Left = 9
+                Left = "10EUR"
             },
 
 
@@ -58,7 +58,7 @@ namespace Storage_management_System
                 Id = 5,
                 name = "Chips",
                 Image = "Assets/Chips.png",
-                Left = 30
+                Left = "3EUR"
             }
         };
 

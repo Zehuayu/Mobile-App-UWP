@@ -112,6 +112,7 @@
     <None Include="Storage_management_System_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\background.jpg" />
     <Content Include="Assets\cheken.png" />
     <Content Include="Assets\Chips.png" />
     <Content Include="Assets\eat.png" />
