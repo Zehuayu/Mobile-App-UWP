@@ -4,12 +4,47 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Storage_management_System
 {
+
+
+    public class GoodsInfo
+    {
+
+        public string name { get; set; }
+
+        public string quantity { get; set; }
+
+        public string cost { get; set; }
+
+        public string price { get; set; }
+
+        public string supplier { get; set; }
+
+        public string id { get; set; }
+
+        
+    }
+
+
+    public class OrderTable
+    {
+        public int id { get; set; }
+
+        public string order { get; set; }
+
+        public DateTime time { get; set; }
+        
+    }
+
+
+
+
     public class MenuItem
     {
-        public int Id{get;set;}
+        public int Id {get;set;}
         public string name { get; set; }
 
         public string Image { get; set; }

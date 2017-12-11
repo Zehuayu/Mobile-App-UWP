@@ -14,8 +14,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
+
 
 namespace Storage_management_System
 {
@@ -37,6 +38,8 @@ namespace Storage_management_System
                 menuitems = value; 
             }
         }
+
+        public Boolean flag = true;
 
 
         public Addr calc = new Addr();
@@ -102,24 +105,35 @@ namespace Storage_management_System
             }
         }
 
-       
+
+        private MobileServiceCollection<OrderTable, OrderTable> items;
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private  void Button_Click(object sender, RoutedEventArgs e)
         {
-            ShowMessageDialog();
+
+
+             ShowMessageDialog();
+
+
+
+
+
+           
 
         }
 
-        private async void ShowMessageDialog()
+        public async void ShowMessageDialog()
         {
             var msgDialog = new Windows.UI.Popups.MessageDialog("Send this order?") { Title = "Make sure the Order" };
-            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand => { this.tb.Text = $"Your orde has send"; }));
-            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("Cancel", uiCommand => { this.tb.Text = $"pick food again"; }));
+            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand => { this.tb.Text = $"Your orde has send";  flag = true;
+
+            }));
+            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("Cancel", uiCommand => { this.tb.Text = $"pick food again";   }));
             await msgDialog.ShowAsync();
         }
     }

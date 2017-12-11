@@ -28,5 +28,15 @@ namespace Storage_management_System
         {
             this.Frame.Navigate(typeof(MenuPage)); 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GoodsManagementPage));
+        }
+
+        private void Button_Click_OrderPage(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OrederPage));
+        }
     }
 }

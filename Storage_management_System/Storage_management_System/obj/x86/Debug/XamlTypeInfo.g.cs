@@ -132,29 +132,35 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
-            _typeNameTable[0] = "Storage_management_System.MainPage";
+            _typeNameTable = new string[13];
+            _typeNameTable[0] = "Storage_management_System.GoodsManagementPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Storage_management_System.MenuPage";
-            _typeNameTable[4] = "System.Collections.ObjectModel.ObservableCollection`1<Storage_management_System.MenuItem>";
-            _typeNameTable[5] = "System.Collections.ObjectModel.Collection`1<Storage_management_System.MenuItem>";
-            _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "Storage_management_System.MenuItem";
-            _typeNameTable[8] = "Int32";
-            _typeNameTable[9] = "String";
+            _typeNameTable[3] = "Microsoft.WindowsAzure.MobileServices.MobileServiceClient";
+            _typeNameTable[4] = "Object";
+            _typeNameTable[5] = "Storage_management_System.MainPage";
+            _typeNameTable[6] = "Storage_management_System.MenuPage";
+            _typeNameTable[7] = "System.Collections.ObjectModel.ObservableCollection`1<Storage_management_System.MenuItem>";
+            _typeNameTable[8] = "System.Collections.ObjectModel.Collection`1<Storage_management_System.MenuItem>";
+            _typeNameTable[9] = "Storage_management_System.MenuItem";
+            _typeNameTable[10] = "Int32";
+            _typeNameTable[11] = "String";
+            _typeNameTable[12] = "Storage_management_System.OrederPage";
 
-            _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::Storage_management_System.MainPage);
+            _typeTable = new global::System.Type[13];
+            _typeTable[0] = typeof(global::Storage_management_System.GoodsManagementPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Storage_management_System.MenuPage);
-            _typeTable[4] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Storage_management_System.MenuItem>);
-            _typeTable[5] = typeof(global::System.Collections.ObjectModel.Collection<global::Storage_management_System.MenuItem>);
-            _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::Storage_management_System.MenuItem);
-            _typeTable[8] = typeof(global::System.Int32);
-            _typeTable[9] = typeof(global::System.String);
+            _typeTable[3] = typeof(global::Microsoft.WindowsAzure.MobileServices.MobileServiceClient);
+            _typeTable[4] = typeof(global::System.Object);
+            _typeTable[5] = typeof(global::Storage_management_System.MainPage);
+            _typeTable[6] = typeof(global::Storage_management_System.MenuPage);
+            _typeTable[7] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Storage_management_System.MenuItem>);
+            _typeTable[8] = typeof(global::System.Collections.ObjectModel.Collection<global::Storage_management_System.MenuItem>);
+            _typeTable[9] = typeof(global::Storage_management_System.MenuItem);
+            _typeTable[10] = typeof(global::System.Int32);
+            _typeTable[11] = typeof(global::System.String);
+            _typeTable[12] = typeof(global::Storage_management_System.OrederPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -189,18 +195,20 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Storage_management_System.MainPage(); }
-        private object Activate_3_MenuPage() { return new global::Storage_management_System.MenuPage(); }
-        private object Activate_4_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Storage_management_System.MenuItem>(); }
-        private object Activate_5_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Storage_management_System.MenuItem>(); }
-        private object Activate_7_MenuItem() { return new global::Storage_management_System.MenuItem(); }
-        private void VectorAdd_4_ObservableCollection(object instance, object item)
+        private object Activate_0_GoodsManagementPage() { return new global::Storage_management_System.GoodsManagementPage(); }
+        private object Activate_5_MainPage() { return new global::Storage_management_System.MainPage(); }
+        private object Activate_6_MenuPage() { return new global::Storage_management_System.MenuPage(); }
+        private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Storage_management_System.MenuItem>(); }
+        private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Storage_management_System.MenuItem>(); }
+        private object Activate_9_MenuItem() { return new global::Storage_management_System.MenuItem(); }
+        private object Activate_12_OrederPage() { return new global::Storage_management_System.OrederPage(); }
+        private void VectorAdd_7_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Storage_management_System.MenuItem>)instance;
             var newItem = (global::Storage_management_System.MenuItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_5_Collection(object instance, object item)
+        private void VectorAdd_8_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Storage_management_System.MenuItem>)instance;
             var newItem = (global::Storage_management_System.MenuItem)item;
@@ -217,9 +225,10 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Storage_management_System.MainPage
+            case 0:   //  Storage_management_System.GoodsManagementPage
                 userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_GoodsManagementPage;
+                userType.AddMemberName("MobileService");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -232,35 +241,48 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
                 xamlType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Storage_management_System.MenuPage
+            case 3:   //  Microsoft.WindowsAzure.MobileServices.MobileServiceClient
+                userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Object
+                xamlType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  Storage_management_System.MainPage
                 userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MenuPage;
+                userType.Activator = Activate_5_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Storage_management_System.MenuPage
+                userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MenuPage;
                 userType.AddMemberName("MenuItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  System.Collections.ObjectModel.ObservableCollection`1<Storage_management_System.MenuItem>
+            case 7:   //  System.Collections.ObjectModel.ObservableCollection`1<Storage_management_System.MenuItem>
                 userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Storage_management_System.MenuItem>"));
-                userType.CollectionAdd = VectorAdd_4_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_7_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 5:   //  System.Collections.ObjectModel.Collection`1<Storage_management_System.MenuItem>
+            case 8:   //  System.Collections.ObjectModel.Collection`1<Storage_management_System.MenuItem>
                 userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_5_Collection;
-                userType.CollectionAdd = VectorAdd_5_Collection;
+                userType.Activator = Activate_8_Collection;
+                userType.CollectionAdd = VectorAdd_8_Collection;
                 xamlType = userType;
                 break;
 
-            case 6:   //  Object
-                xamlType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  Storage_management_System.MenuItem
+            case 9:   //  Storage_management_System.MenuItem
                 userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_7_MenuItem;
+                userType.Activator = Activate_9_MenuItem;
                 userType.AddMemberName("Id");
                 userType.AddMemberName("name");
                 userType.AddMemberName("Image");
@@ -269,64 +291,81 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  Int32
+            case 10:   //  Int32
                 xamlType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  String
+            case 11:   //  String
                 xamlType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  Storage_management_System.OrederPage
+                userType = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_OrederPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
         }
 
 
-        private object get_0_MenuPage_MenuItems(object instance)
+        private object get_0_GoodsManagementPage_MobileService(object instance)
+        {
+            var that = (global::Storage_management_System.GoodsManagementPage)instance;
+            return that.MobileService;
+        }
+        private void set_0_GoodsManagementPage_MobileService(object instance, object Value)
+        {
+            var that = (global::Storage_management_System.GoodsManagementPage)instance;
+            that.MobileService = (global::Microsoft.WindowsAzure.MobileServices.MobileServiceClient)Value;
+        }
+        private object get_1_MenuPage_MenuItems(object instance)
         {
             var that = (global::Storage_management_System.MenuPage)instance;
             return that.MenuItems;
         }
-        private void set_0_MenuPage_MenuItems(object instance, object Value)
+        private void set_1_MenuPage_MenuItems(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuPage)instance;
             that.MenuItems = (global::System.Collections.ObjectModel.ObservableCollection<global::Storage_management_System.MenuItem>)Value;
         }
-        private object get_1_MenuItem_Id(object instance)
+        private object get_2_MenuItem_Id(object instance)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             return that.Id;
         }
-        private void set_1_MenuItem_Id(object instance, object Value)
+        private void set_2_MenuItem_Id(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_2_MenuItem_name(object instance)
+        private object get_3_MenuItem_name(object instance)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             return that.name;
         }
-        private void set_2_MenuItem_name(object instance, object Value)
+        private void set_3_MenuItem_name(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             that.name = (global::System.String)Value;
         }
-        private object get_3_MenuItem_Image(object instance)
+        private object get_4_MenuItem_Image(object instance)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             return that.Image;
         }
-        private void set_3_MenuItem_Image(object instance, object Value)
+        private void set_4_MenuItem_Image(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             that.Image = (global::System.String)Value;
         }
-        private object get_4_MenuItem_Left(object instance)
+        private object get_5_MenuItem_Left(object instance)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             return that.Left;
         }
-        private void set_4_MenuItem_Left(object instance, object Value)
+        private void set_5_MenuItem_Left(object instance, object Value)
         {
             var that = (global::Storage_management_System.MenuItem)instance;
             that.Left = (global::System.String)Value;
@@ -339,35 +378,41 @@ namespace Storage_management_System.Storage_management_System_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "Storage_management_System.GoodsManagementPage.MobileService":
+                userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.GoodsManagementPage");
+                xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "MobileService", "Microsoft.WindowsAzure.MobileServices.MobileServiceClient");
+                xamlMember.Getter = get_0_GoodsManagementPage_MobileService;
+                xamlMember.Setter = set_0_GoodsManagementPage_MobileService;
+                break;
             case "Storage_management_System.MenuPage.MenuItems":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuPage");
                 xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.ObjectModel.ObservableCollection`1<Storage_management_System.MenuItem>");
-                xamlMember.Getter = get_0_MenuPage_MenuItems;
-                xamlMember.Setter = set_0_MenuPage_MenuItems;
+                xamlMember.Getter = get_1_MenuPage_MenuItems;
+                xamlMember.Setter = set_1_MenuPage_MenuItems;
                 break;
             case "Storage_management_System.MenuItem.Id":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuItem");
                 xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_1_MenuItem_Id;
-                xamlMember.Setter = set_1_MenuItem_Id;
+                xamlMember.Getter = get_2_MenuItem_Id;
+                xamlMember.Setter = set_2_MenuItem_Id;
                 break;
             case "Storage_management_System.MenuItem.name":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuItem");
                 xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "name", "String");
-                xamlMember.Getter = get_2_MenuItem_name;
-                xamlMember.Setter = set_2_MenuItem_name;
+                xamlMember.Getter = get_3_MenuItem_name;
+                xamlMember.Setter = set_3_MenuItem_name;
                 break;
             case "Storage_management_System.MenuItem.Image":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuItem");
                 xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_3_MenuItem_Image;
-                xamlMember.Setter = set_3_MenuItem_Image;
+                xamlMember.Getter = get_4_MenuItem_Image;
+                xamlMember.Setter = set_4_MenuItem_Image;
                 break;
             case "Storage_management_System.MenuItem.Left":
                 userType = (global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Storage_management_System.MenuItem");
                 xamlMember = new global::Storage_management_System.Storage_management_System_XamlTypeInfo.XamlMember(this, "Left", "String");
-                xamlMember.Getter = get_4_MenuItem_Left;
-                xamlMember.Setter = set_4_MenuItem_Left;
+                xamlMember.Getter = get_5_MenuItem_Left;
+                xamlMember.Setter = set_5_MenuItem_Left;
                 break;
             }
             return xamlMember;
