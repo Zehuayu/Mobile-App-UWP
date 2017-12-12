@@ -54,9 +54,6 @@ namespace Storage_management_System
             await App.MobileService.GetTable<GoodsInfo>().InsertAsync(item);
 
 
-
-
-
         }
 
         private async void Show_Table(object sender, RoutedEventArgs e)
@@ -82,10 +79,10 @@ namespace Storage_management_System
         }
 
 
-        public MobileServiceClient MobileService { get; set; }
+       // public MobileServiceClient MobileService { get; set; }
         
 
-        IMobileServiceSyncTable Goodstable;
+       // IMobileServiceSyncTable Goodstable;
 
 
         
@@ -111,6 +108,16 @@ namespace Storage_management_System
         {
             //IMobileServiceTable<GoodsInfo> Item = App.MobileService.GetTable<GoodsInfo>().DeleteAsync();
 
+        }
+
+        private void to_orderList_Page(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OrederPage));
+        }
+
+        private void to_Home(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

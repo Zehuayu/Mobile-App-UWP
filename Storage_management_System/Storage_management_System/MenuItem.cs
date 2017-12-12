@@ -29,16 +29,13 @@ namespace Storage_management_System
     }
 
 
-    public class OrderTable
+
+    public class OrderInfo
     {
-        public int id { get; set; }
+        public string order;
 
-        public string order { get; set; }
-
-        public DateTime time { get; set; }
-        
+        public string time;
     }
-
 
 
 
@@ -49,6 +46,10 @@ namespace Storage_management_System
 
         public string Image { get; set; }
         public string Left { get; set; }
+
+
+
+
 
         public static ObservableCollection<MenuItem> MenuList()
         {

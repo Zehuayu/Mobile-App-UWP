@@ -15,8 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.WindowsAzure.MobileServices;
-
-
+using System.Diagnostics;
 
 namespace Storage_management_System
 {
@@ -35,11 +34,10 @@ namespace Storage_management_System
             }
             set
             {
-                menuitems = value; 
+                menuitems = value;
             }
         }
 
-        public Boolean flag = true;
 
 
         public Addr calc = new Addr();
@@ -76,10 +74,10 @@ namespace Storage_management_System
 
             public int TotalPrice
             {
-             
 
 
-                get{
+
+                get {
                     if (putS1 == 1)
                     {
                         return 8;
@@ -100,42 +98,70 @@ namespace Storage_management_System
                     {
                         return 3;
                     }
-                    
-                    return 0 ; }
+
+                    return 0; }
             }
         }
 
 
-        private MobileServiceCollection<OrderTable, OrderTable> items;
+
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
 
-        private  void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
 
-             ShowMessageDialog();
+            ShowMessageDialog();
 
 
 
-
-
-           
 
         }
 
         public async void ShowMessageDialog()
         {
             var msgDialog = new Windows.UI.Popups.MessageDialog("Send this order?") { Title = "Make sure the Order" };
-            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand => { this.tb.Text = $"Your orde has send";  flag = true;
-
+            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand => { this.tb.Text = $"Your orde has send";
+                Addorder();
             }));
-            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("Cancel", uiCommand => { this.tb.Text = $"pick food again";   }));
+            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("Cancel", uiCommand => { this.tb.Text = $"pick food again"; }));
             await msgDialog.ShowAsync();
         }
+
+
+
+
+
+
+        public void Addorder()
+        {
+            OrderInfo of = new OrderInfo();
+
+            string orderup = PutSM.Text + "Number Meal";
+
+            string time = DateTime.UtcNow.ToString();
+
+
+            string orderOutput = "Receive" + orderup + "     " + time;
+
+
+        }
+
+
     }
 
+
+
+
+
 }
+
+  
+
+
+
+

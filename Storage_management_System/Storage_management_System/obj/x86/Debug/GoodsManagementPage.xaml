@@ -11,23 +11,23 @@
         <Grid.Background>
             <ImageBrush  ImageSource="Assets/background.jpg"/>
         </Grid.Background>
+        <Button x:ConnectionId='1' Content="Order Page" Height="48" Width="103"                           Margin="27,10,0,662"/>
+        <Button x:ConnectionId='2' Content="ADD" Margin="27,64,0,608" Height="48" Width="103"                    />
+        <Button x:ConnectionId='3' Content="Show Table" Margin="150,64,0,608" Height="48" Width="103"                    />
 
-        <Button x:ConnectionId='1' Content="ADD" Margin="27,64,0,608" Height="48" Width="103"                    />
-        <Button x:ConnectionId='2' Content="Show Table" Margin="150,64,0,608" Height="48" Width="103"                    />
-
-        <Button x:ConnectionId='3' Content="Update" Margin="37,396,0,272" Height="48"  Width="103"                      />
-        <Button x:ConnectionId='4' Content="Delete" Margin="37,481,0,191" Height="48"  Width="103"                      />
+        <Button x:ConnectionId='4' Content="Update" Margin="37,396,0,272" Height="48"  Width="103"                      />
+        <Button x:ConnectionId='5' Content="Delete" Margin="37,481,0,191" Height="48"  Width="103"                      />
 
         <TextBlock Text="Goods name" Margin="10,137,0,550" Width="100" Height="30" HorizontalAlignment="Left"/>
         <TextBlock Text="Goods quantity" HorizontalAlignment="Left" Width="110" Height="30" Margin="10,185,0,493" />
         <TextBlock Text="Cost" HorizontalAlignment="Left" Width="100" Height="30" Margin="10,241,0,449"/>
         <TextBlock Text="Price" HorizontalAlignment="Left" Width="100" Height="30" Margin="10,290,0,400"/>
         <TextBlock Text="Supplier" HorizontalAlignment="Left" Width="110" Margin="10,337,0,355"/>
-        <TextBox x:ConnectionId='5' Name ="NameInput" Text="" BorderThickness="1" Width="119" Height="40" HorizontalAlignment="Left" Margin="134,129,0,551"  RenderTransformOrigin="0.5,0.5" />
-        <TextBox x:ConnectionId='6' Name ="QuantityInput" Text="" BorderThickness="1" Width="119" Height="40" HorizontalAlignment="Left" Margin="134,181,0,499" RenderTransformOrigin="0.5,0.5" />
-        <TextBox x:ConnectionId='7' Name="CostInput" Text="" BorderThickness="1"  Width="119" Height="40" HorizontalAlignment="Left" Margin="134,232,0,448"/>
-        <TextBox x:ConnectionId='8' Name="PriceInput" Text="" BorderThickness="1"  Width="119" HorizontalAlignment="Left" Margin="134,325,0,355"/>
-        <TextBox x:ConnectionId='9' Name="SupplierInput" Text="" BorderThickness="1"  Width="119" Height="40" HorizontalAlignment="Left" Margin="134,280,0,400"/>
+        <TextBox x:ConnectionId='6' Name ="NameInput" Text="" BorderThickness="1" Width="119" Height="40" HorizontalAlignment="Left" Margin="134,129,0,551"  RenderTransformOrigin="0.5,0.5" />
+        <TextBox x:ConnectionId='7' Name ="QuantityInput" Text="" BorderThickness="1" Width="119" Height="40" HorizontalAlignment="Left" Margin="134,181,0,499" RenderTransformOrigin="0.5,0.5" />
+        <TextBox x:ConnectionId='8' Name="CostInput" Text="" BorderThickness="1"  Width="119" Height="40" HorizontalAlignment="Left" Margin="134,232,0,448"/>
+        <TextBox x:ConnectionId='9' Name="PriceInput" Text="" BorderThickness="1"  Width="119" HorizontalAlignment="Left" Margin="134,325,0,355"/>
+        <TextBox x:ConnectionId='10' Name="SupplierInput" Text="" BorderThickness="1"  Width="119" Height="40" HorizontalAlignment="Left" Margin="134,280,0,400"/>
 
         
       
@@ -41,7 +41,7 @@
             
         </StackPanel>
 
-        <ListView x:ConnectionId='10' x:Name="MylistView" Margin="286,112,378,208" Height="400" Width="550"  BorderThickness="1" ItemsSource="{Binding}">
+        <ListView x:ConnectionId='11' x:Name="MylistView" Margin="286,112,378,208" Height="400" Width="550"  BorderThickness="1" ItemsSource="{Binding}">
             <ListView.ItemTemplate>
                 <DataTemplate>
 
@@ -55,6 +55,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:ConnectionId='12' Content="Home" Height="48" Width="103"                  Margin="150,10,0,662"/>
 
     </Grid>
 </Page>

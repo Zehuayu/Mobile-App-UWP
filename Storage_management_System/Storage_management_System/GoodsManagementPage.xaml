@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush  ImageSource="Assets/background.jpg"/>
         </Grid.Background>
-
+        <Button Content="Order Page" Height="48" Width="103" Click="to_orderList_Page" Margin="27,10,0,662"/>
         <Button Content="ADD" Margin="27,64,0,608" Height="48" Width="103" Click="Add_Button" />
         <Button Content="Show Table" Margin="150,64,0,608" Height="48" Width="103" Click="Show_Table" />
 
@@ -55,6 +55,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Content="Home" Height="48" Width="103"  Click="to_Home" Margin="150,10,0,662"/>
 
     </Grid>
 </Page>

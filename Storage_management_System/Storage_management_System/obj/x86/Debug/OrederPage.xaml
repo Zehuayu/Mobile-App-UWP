@@ -12,7 +12,16 @@
             <ImageBrush  ImageSource="Assets/background.jpg"/>
         </Grid.Background>
         
-        
+        <Button x:ConnectionId='1' x:Name="Order_List" Content="Get order" FontSize="30" Width="148" Margin="80,206,0,444" Height="70"                          />
+        <Button x:ConnectionId='2' Content="Back" FontSize="30" Width="148" Margin="80,326,0,324" Height="70"                    />
+
+
+
+
+      
+
+
+
 
     </Grid>
 </Page>
