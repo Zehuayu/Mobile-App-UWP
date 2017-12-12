@@ -28,3 +28,43 @@ For Silverlight and WPF, the MVVM pattern is more encompassing and can appear to
 
 4. Testing
 
+5. Upload Appstore
+
+## Azure Using
+
+![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/6.png)
+
+![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/4.png)
+
+
+
+[resource from](https://blog.xamarin.com/getting-started-azure-mobile-apps-easy-tables)
+
+
+
+## MVVM
+![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/1.png)
+
+![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/2.png)
+
+
+## Cloud Introduction
+
+Azure can give an interface to mobile app, App all data can send azure data, Azure store this information and make table, user can make operation on website and review this information.
+
+advatage easy-connecting
+
+disadvantage expensive
+
+
+
+
+## MVVM problem
+
+coder have to definaly undestand how does every UI tool using, Bindind function some times has bug and tough to fix up 
+
+
+
+
+
+  
