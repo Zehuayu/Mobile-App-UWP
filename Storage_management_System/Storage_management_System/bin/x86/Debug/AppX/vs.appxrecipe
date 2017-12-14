@@ -8,36 +8,33 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>f2cde723-b572-4ed2-81d3-902dc306b299</PackageIdentityName>
-    <PackageIdentityPublisher>CN=余泽华</PackageIdentityPublisher>
+    <PackageIdentityName>ccc9d677-ebcd-40be-9f5a-f1bc85472f8e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=955004A2-9A37-440C-BDCF-6C47ED3F2140</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Program Files\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CC43ABB5ED2C21DCBCC92885642D571570CEE784223AB1B3C9330DEC0A816D73</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>f2cde723-b572-4ed2-81d3-902dc306b299_1.0.0.0_x86__4g38c7qkqkv28</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>f2cde723-b572-4ed2-81d3-902dc306b299_4g38c7qkqkv28!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>f2cde723-b572-4ed2-81d3-902dc306b299</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=余泽华</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>7B7ABCA6D7A108493D4E4898E7DF86DCCCEA8818FAA2DCF67608A803685C45C7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3602Zehua.4095654EF9EB8_1.1.0.0_x86__0x3n4zt46dkb6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3602Zehua.4095654EF9EB8_0x3n4zt46dkb6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3602Zehua.4095654EF9EB8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=955004A2-9A37-440C-BDCF-6C47ED3F2140</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T19:51:05.861</Modified>
+      <Modified>2017-12-14T04:57:58.025</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\Storage_management_System.exe">
       <PackagePath>entrypoint\Storage_management_System.exe</PackagePath>
-      <Modified>2017-12-12T19:51:04.190</Modified>
+      <Modified>2017-12-14T04:57:56.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\Microsoft.Azure.Mobile.Client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -206,6 +203,14 @@
     <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\runtime.win7.System.Private.Uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2016-07-01T14:48:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\SQLite.Net-PCL\3.1.1\lib\Windows8\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-06T17:18:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\SQLite.Net.Core-PCL\3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-11-06T17:18:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\.nuget\packages\System.AppContext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -503,6 +508,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.21.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2017-12-13T23:14:40.149</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2017-12-10T01:32:32.142</Modified>
@@ -523,13 +532,188 @@
       <PackagePath>Assets\Fire-Noodle.png</PackagePath>
       <Modified>2017-12-07T14:16:53.193</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:31.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:31.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:31.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:31.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.012</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Spicy-Bag.png">
       <PackagePath>Assets\Spicy-Bag.png</PackagePath>
       <Modified>2017-12-07T14:17:23.585</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.489</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\spring-Roll.png">
       <PackagePath>Assets\spring-Roll.png</PackagePath>
       <Modified>2017-12-07T14:16:24.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-12T20:42:32.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -538,32 +722,32 @@
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.000</Modified>
+      <Modified>2017-12-12T20:42:32.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.021</Modified>
+      <Modified>2017-12-12T20:42:32.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.021</Modified>
+      <Modified>2017-12-12T20:42:32.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.021</Modified>
+      <Modified>2017-12-12T20:42:32.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.021</Modified>
+      <Modified>2017-12-12T20:40:29.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-03T22:00:02.021</Modified>
+      <Modified>2017-12-12T20:42:32.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -571,73 +755,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\Storage_management_System.xr.xml">
       <PackagePath>Storage_management_System.xr.xml</PackagePath>
-      <Modified>2017-12-12T19:51:03.954</Modified>
+      <Modified>2017-12-14T04:03:41.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-10-11T10:17:34.514</Modified>
+      <Modified>2017-12-14T03:13:04.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T19:51:05.579</Modified>
+      <Modified>2017-12-14T04:57:57.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\Core\Storage_management_System.exe">
       <PackagePath>Storage_management_System.exe</PackagePath>
-      <Modified>2017-12-12T19:51:05.861</Modified>
+      <Modified>2017-12-14T04:57:58.018</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
-      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25305.1</Version>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
-      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25305.1</Version>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
-      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
-      <Version>1.1.25305.1</Version>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23819.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23819.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25507.1</Version>
+      <Version>14.0.24210.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25507.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25507.1</Version>
+      <Version>14.0.24210.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25507.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25507.1</Version>
+      <Version>14.0.24210.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25507.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

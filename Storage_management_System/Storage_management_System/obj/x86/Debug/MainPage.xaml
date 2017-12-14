@@ -13,11 +13,11 @@
         </Grid.Background>
 
         <TextBlock HorizontalAlignment="Left" Margin="10,56,0,0" TextWrapping="Wrap" Text="Storage Management" VerticalAlignment="Top" RenderTransformOrigin="0.568,0.72" Height="68" Width="412" FontSize="36" FontWeight="Bold" TextAlignment="Center"/>
-        <Button x:ConnectionId='1' Content="Customer Entrance"   FontSize="25"                      Background="Beige" Height="96" Margin="315,195,0,0" VerticalAlignment="Top" Width="333"/>
+        <Button x:ConnectionId='1' Content="Customer Entrance"   FontSize="25"                      Background="Beige" Height="93" Margin="397,205,0,0" VerticalAlignment="Top" Width="251"/>
 
-        <Button x:ConnectionId='2' Content="Products Info Management"  FontSize="25" Background="Beige"                        Margin="315,371,0,248" Height="101" Width="333" RenderTransformOrigin="0.188,0.574" />
+        <Button x:ConnectionId='2' Content="Products Info Management"  FontSize="25" Background="Beige"                        Margin="397,361,0,274" Height="85" Width="251" RenderTransformOrigin="0.188,0.574" />
 
-       
+
     </Grid>
 </Page>
 

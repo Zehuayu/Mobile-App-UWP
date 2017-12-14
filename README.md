@@ -32,6 +32,9 @@ For Silverlight and WPF, the MVVM pattern is more encompassing and can appear to
 
 ## Azure Using
 
+
+when user press " show table" button, possible waitting 10 seconds, i guess app catch infomation is low speed from Azure.
+ 
 ![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/6.png)
 
 ![image](https://github.com/Zehuayu/Mobile-App-UWP/blob/master/photo/4.png)
@@ -39,6 +42,11 @@ For Silverlight and WPF, the MVVM pattern is more encompassing and can appear to
 
 
 [resource from](https://blog.xamarin.com/getting-started-azure-mobile-apps-easy-tables)
+
+
+## Sqlite
+
+I picked two databases to store information, Azure manage all goods infomation, while Sqlite is attention to store order information.
 
 
 
@@ -63,6 +71,11 @@ disadvantage expensive
 
 coder have to definaly undestand how does every UI tool using, Bindind function some times has bug and tough to fix up 
 
+
+## some problem else
+
+
+when user change the UI size, the module, such as button and text block, of the app will happen some change. i do not find out reason, so i am not fix up it. 
 
 
 

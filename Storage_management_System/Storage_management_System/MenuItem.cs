@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
+using SQLite.Net.Attributes;
 
 namespace Storage_management_System
 {
@@ -29,13 +30,33 @@ namespace Storage_management_System
     }
 
 
-
-    public class OrderInfo
+    class OrderList
     {
-        public string order;
 
-        public string time;
+        [PrimaryKey]
+        [AutoIncrement]
+
+
+
+        public int id
+        {
+            get;
+            set;
+        }
+        [MaxLength(5)]
+        public string order
+        {
+            get;
+            set;
+        }
+        public string time
+        {
+            get;
+            set;
+
+        }
     }
+   
 
 
 

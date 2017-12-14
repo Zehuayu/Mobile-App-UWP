@@ -8,7 +8,6 @@ c:\users\余泽华\source\repos\Storage_management_System\Storage_management_Sys
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\App.xbf
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\MainPage.xbf
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\XamlSaveStateFile.xml
-c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\Storage_management_System.csproj.CoreCompileInputs.cache
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\App.xbf
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\MainPage.xbf
 c:\users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\Storage_management_System.xr.xml
@@ -217,7 +216,6 @@ C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_Sys
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\MenuPage.xaml
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\MenuPage.xbf
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\MenuPage.xbf
-C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\Storage_management_System.csprojResolveAssemblyReference.cache
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\GoodsManagementPage.xbf
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\GoodsManagementPage.g.i.cs
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\GoodsManagementPage.g.cs
@@ -233,3 +231,6 @@ C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_Sys
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\OrederPage.xaml
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\OrederPage.xbf
 C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\OrederPage.xbf
+C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
+C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x86\Debug\SQLite.Net.dll
+C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\obj\x86\Debug\Storage_management_System.csprojResolveAssemblyReference.cache

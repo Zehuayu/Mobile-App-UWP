@@ -1,0 +1,2 @@
+MainPackage=C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\bin\x64\Release\Storage_management_System_1.1.0.0_x64.appx
+SymbolPackage=C:\Users\余泽华\source\repos\Storage_management_System\Storage_management_System\AppPackages\Storage_management_System_1.1.0.0_Test\Storage_management_System_1.1.0.0_x64.appxsym

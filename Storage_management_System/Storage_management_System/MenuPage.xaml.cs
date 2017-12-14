@@ -16,6 +16,11 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.WindowsAzure.MobileServices;
 using System.Diagnostics;
+using SQLite.Net.Attributes;
+using SQLite.Net.Platform;
+using System.Text;
+using Storage_management_System.DataBases;
+using Windows.UI.Popups;
 
 namespace Storage_management_System
 {
@@ -29,7 +34,8 @@ namespace Storage_management_System
         private ObservableCollection<MenuItem> menuitems;
         public ObservableCollection<MenuItem> MenuItems
         {
-            get {
+            get
+            {
                 return menuitems;
             }
             set
@@ -77,7 +83,8 @@ namespace Storage_management_System
 
 
 
-                get {
+                get
+                {
                     if (putS1 == 1)
                     {
                         return 8;
@@ -99,7 +106,8 @@ namespace Storage_management_System
                         return 3;
                     }
 
-                    return 0; }
+                    return 0;
+                }
             }
         }
 
@@ -120,12 +128,19 @@ namespace Storage_management_System
 
 
 
+
+
+
+
         }
 
         public async void ShowMessageDialog()
         {
             var msgDialog = new Windows.UI.Popups.MessageDialog("Send this order?") { Title = "Make sure the Order" };
-            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand => { this.tb.Text = $"Your orde has send";
+            msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("OK", uiCommand =>
+            {
+
+                this.tb.Text = $"Your orde has send";
                 Addorder();
             }));
             msgDialog.Commands.Add(new Windows.UI.Popups.UICommand("Cancel", uiCommand => { this.tb.Text = $"pick food again"; }));
@@ -139,26 +154,32 @@ namespace Storage_management_System
 
         public void Addorder()
         {
-            OrderInfo of = new OrderInfo();
+            string op = PutSM.Text + "number meal";
+            string ti = DateTime.UtcNow.ToString();
+            using (var conn = DatabaseConnection.GetDbConnection())
+            {
+                var addOrderlist = new OrderList() { order = op, time = ti };
 
-            string orderup = PutSM.Text + "Number Meal";
+                // 受影响行数。
+                var count = conn.Insert(addOrderlist);
 
-            string time = DateTime.UtcNow.ToString();
+
+            }
 
 
-            string orderOutput = "Receive" + orderup + "     " + time;
+
 
 
         }
 
 
+
+
+
     }
-
-
-
-
-
 }
+
+
 
   
 
